@@ -12,3 +12,14 @@ Images that can be used on the website are stored in img.
 
 # site
 The core html code is store in site.
+Currently, there are three different versions:
+## test2.html
+Using predefined w3-styles
+
+## boot.html
+Using bootstrap for mobile optimized front end
+
+## start.html 
+All custom style including all the different websites.
+
+Each of these versions can be opened individually.
