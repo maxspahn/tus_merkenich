@@ -125,3 +125,47 @@ footer a:link, footer a:visited {
 	width: 148px; 
 	height: 110px;
 	}
+
+#gallery {
+  position: relative;
+}
+
+#gallery figure {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#gallery figure:last-of-type {
+  position: relative;
+}
+
+#gallery figcaption {
+  position: absolute;
+  left: 1em;
+  bottom: 0.5em;
+  z-index: 2;
+}
+
+#gallery figure {
+  animation: wechseln 15s infinite;
+}
+
+@keyframes wechseln {
+    0% {opacity: 0;}
+   20% {opacity: 1;}
+   40% {opacity: 1;}
+   60% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+#gallery figure:nth-of-type(2) {
+  animation-delay: 5s;
+  opacity: 0;
+}
+
+#gallery figure:nth-of-type(3) {
+  animation-delay: 10s;
+  opacity: 0;
+}
