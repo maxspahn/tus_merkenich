@@ -234,15 +234,19 @@ footer a:link, footer a:visited {
 	height: 110px;
 	}
 
+#responsize-image {
+  width: 100%;
+  height: auto;
+}
+
 #gallery {
-  position: relative;
+  position: absolute;
+  width: 100%;
 }
 
 #gallery figure {
   position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
+  width: 70%;
 }
 
 #gallery figure:last-of-type {
@@ -251,8 +255,8 @@ footer a:link, footer a:visited {
 
 #gallery figcaption {
   position: absolute;
-  left: 1em;
-  bottom: 0.5em;
+  left: 0em;
+  bottom: 0.0em;
   z-index: 2;
 }
 
