@@ -240,7 +240,7 @@ footer a:link, footer a:visited {
 }
 
 #gallery {
-  position: absolute;
+  position: relative;
   width: 100%;
 }
 
