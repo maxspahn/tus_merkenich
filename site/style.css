@@ -13,7 +13,7 @@
 .navBar {
   font-family: helvetica;
   font-weight: bold; 
-  font-size: 150%;
+  font-size: 120%;
   color: white;
   background-color: black;
   text-align: center;
@@ -264,6 +264,10 @@ footer a:link, footer a:visited {
   animation: wechseln 15s infinite;
 }
 
+#gallery figure {
+  animation: wechseln 25s infinite;
+}
+
 @keyframes wechseln {
     0% {opacity: 0;}
    20% {opacity: 1;}
@@ -279,5 +283,15 @@ footer a:link, footer a:visited {
 
 #gallery figure:nth-of-type(3) {
   animation-delay: 10s;
+  opacity: 0;
+}
+
+#gallery figure:nth-of-type(4) {
+  animation-delay: 15s;
+  opacity: 0;
+}
+
+#gallery figure:nth-of-type(5) {
+  animation-delay: 20s;
   opacity: 0;
 }
