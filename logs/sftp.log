@@ -1,0 +1,18 @@
+Feb 17 11:46:22 10.71.56.0 u100055318 Connection from 10.71.56.0 port 37942 on 82.165.87.99 port 22
+Feb 17 11:46:23 10.71.56.0 u100055318 Failed publickey for u100055318 from 10.71.56.0 port 37942 ssh2: RSA db:ee:2c:ab:30:3e:4b:c3:bc:a7:8e:02:b2:f6:3b:23
+Feb 17 11:46:23 10.71.56.0 u100055318 Accepted password for u100055318 from 10.71.56.0 port 37942 ssh2
+Feb 17 11:46:23 10.71.56.0 u100055318 Starting session: subsystem 'sftp' for u100055318 from 10.71.56.0 port 37942
+Feb 17 11:46:23 10.71.56.0 u100055318 session opened for local user u100055318 from [10.71.56.0]
+Feb 17 11:46:49 10.71.56.0 u100055318 sent status No such file
+Feb 17 11:47:00 10.71.56.0 u100055318 sent status No such file
+Feb 17 11:47:00 10.71.56.0 u100055318 Connection from 10.71.56.0 port 44770 on 82.165.87.99 port 22
+Feb 17 11:47:00 10.71.56.0 u100055318 Failed publickey for u100055318 from 10.71.56.0 port 44770 ssh2: RSA db:ee:2c:ab:30:3e:4b:c3:bc:a7:8e:02:b2:f6:3b:23
+Feb 17 11:47:00 10.71.56.0 u100055318 Accepted password for u100055318 from 10.71.56.0 port 44770 ssh2
+Feb 17 11:47:00 10.71.56.0 u100055318 Connection from 10.71.56.0 port 44764 on 82.165.87.99 port 22
+Feb 17 11:47:00 10.71.56.0 u100055318 Failed publickey for u100055318 from 10.71.56.0 port 44764 ssh2: RSA db:ee:2c:ab:30:3e:4b:c3:bc:a7:8e:02:b2:f6:3b:23
+Feb 17 11:47:00 10.71.56.0 u100055318 Starting session: subsystem 'sftp' for u100055318 from 10.71.56.0 port 44770
+Feb 17 11:47:00 10.71.56.0 u100055318 Accepted password for u100055318 from 10.71.56.0 port 44764 ssh2
+Feb 17 11:47:00 10.71.56.0 u100055318 session opened for local user u100055318 from [10.71.56.0]
+Feb 17 11:47:00 10.71.56.0 u100055318 Starting session: subsystem 'sftp' for u100055318 from 10.71.56.0 port 44764
+Feb 17 11:47:00 10.71.56.0 u100055318 session opened for local user u100055318 from [10.71.56.0]
+Feb 17 11:47:00 10.71.56.0 u100055318 open "/logs/sftp.log" flags READ mode 0666
