@@ -273,7 +273,7 @@ footer a:link, footer a:visited {
 @keyframes wechseln {
     0% {opacity: 0;}
    20% {opacity: 1;}
-   40% {opacity: 1;}
+   40% {opacity: 0;}
    60% {opacity: 0;}
   100% {opacity: 0;}
 }
@@ -297,3 +297,4 @@ footer a:link, footer a:visited {
   animation-delay: 20s;
   opacity: 0;
 }
+
