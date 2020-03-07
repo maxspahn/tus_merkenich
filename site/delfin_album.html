@@ -41,14 +41,50 @@
     </nav>
     <section>
       <h1 class="w3-wide w3-center"> Eindrücke Delfin</h1>
-      <figure id="gallery">
-        <figure> <img src="../img/delfin2.jpg" id="responsize-image"> </figure>
-        <figure> <img src="../img/delfin3.jpg" id="responsize-image"> </figure>
-        <figure> <img src="../img/segeln_arbeit_busgruppe.jpg" id="responsize-image"> </figure>
-        <figure> <img src="../img/segeln_delfin_action.jpg" id="responsize-image"> </figure>
-        <figure> <img src="../img/segeln_arbeit_an_land_2.jpg" id="responsize-image"> </figure>
-      </figure>
+
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 5</div>
+          <img src="../img/delfin2.jpg" style="width:100%">
+          <div class="text">Delfin von oben</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 5</div>
+          <img src="../img/delfin3.jpg" style="width:100%">
+          <div class="text">Sicher im Haafen</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 5</div>
+          <img src="../img/segeln_arbeit_busgruppe.jpg" style="width:100%">
+          <div class="text">In gemütlicher Runde</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 5</div>
+          <img src="../img/segeln_delfin_action.jpg" style="width:100%">
+          <div class="text">Auf offener See</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 5</div>
+          <img src="../img/segeln_arbeit_an_land_2.jpg" style="width:100%">
+          <div class="text">Sauber machen muss sein</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+
     </section>	
+
   </body>
   <footer>&copy; 2019 TuS Merkenich 2009 e.V.</footer>
+
+  <script src="slides.js"></script>
 </html>
