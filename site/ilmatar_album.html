@@ -41,14 +41,47 @@
     </nav>
     <section>
       <h1 class="w3-wide w3-center"> Eindrücke Ilmatar</h1>
-      <figure id="gallery">
-        <figure> <img src="../img/ilmatar_innen1.jpeg" id="responsize-image"> </figure>
-        <figure> <img src="../img/ilmatar_schleuse.jpeg" id="responsize-image"> </figure>
-        <figure> <img src="../img/ilmatar_innen2.jpeg" id="responsize-image"> </figure>
-        <figure> <img src="../img/ilmatar.jpg" id="responsize-image"> </figure>
-        <figure> <img src="../img/ilmatar_innen3.jpeg" id="responsize-image"> </figure>
-      </figure>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 5</div>
+          <img src="../img/ilmatar_innen1.jpeg" style="width:100%">
+          <div class="text">Ilmatar Innen</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 5</div>
+          <img src="../img/ilmatar_schleuse.jpeg" style="width:100%">
+          <div class="text">Action in der Schleuse</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 5</div>
+          <img src="../img/ilmatar_innen2.jpeg" style="width:100%">
+          <div class="text">Ilmatar Innen</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 5</div>
+          <img src="../img/ilmatar.jpg" style="width:100%">
+          <div class="text">Im Hafen</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 5</div>
+          <img src="../img/ilmatar_innen3.jpeg" style="width:100%">
+          <div class="text">Ilmatara Innen</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+
     </section>	
   </body>
   <footer>&copy; 2019 TuS Merkenich 2009 e.V.</footer>
+  <script src="slides.js"></script>
 </html>
