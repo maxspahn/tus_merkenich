@@ -40,49 +40,106 @@
 	  </div>
     </nav>
     <section>
-      <h1 class="w3-wide w3-center"> Eindrücke Delfin</h1>
+      <h1 class="w3-wide w3-center"> Erneuerung der Holzleiste</h1>
 
       <div class="slideshow-container">
-        <div class="mySlides fade">
-          <div class="numbertext">1 / 5</div>
-          <img src="../img/delfin2.jpg" style="width:100%">
-          <div class="text">Delfin von oben</div>
+        <div name="supSlide" class="mySlides fade">
+          <div class="numbertext">1 / 7</div>
+          <img src="../img/holzleisten_installation_2020/0_garage_polster.jpg" style="width:100%">
+          <div class="text">Start des Wochenendes in der Heimat</div>
         </div>
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 5</div>
-          <img src="../img/delfin3.jpg" style="width:100%">
-          <div class="text">Sicher im Haafen</div>
+        <div name="supSlide" class="mySlides fade">
+          <div class="numbertext">2 / 7</div>
+          <img src="../img/holzleisten_installation_2020/1_abgeklebt.jpg" style="width:100%">
+          <div class="text">Vorbereitung Bearbeitung Rumpf</div>
         </div>
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 5</div>
-          <img src="../img/segeln_arbeit_busgruppe.jpg" style="width:100%">
-          <div class="text">In gemütlicher Runde</div>
+        <div name="supSlide" class="mySlides fade">
+          <div class="numbertext">3 / 7</div>
+          <img src="../img/holzleisten_installation_2020/2_erste_schritte.jpg" style="width:100%">
+          <div class="text">Vorbereitung Lackierarbeiten</div>
         </div>
-        <div class="mySlides fade">
-          <div class="numbertext">4 / 5</div>
-          <img src="../img/segeln_delfin_action.jpg" style="width:100%">
-          <div class="text">Auf offener See</div>
+        <div name="supSlide" class="mySlides fade">
+          <div class="numbertext">4 / 7</div>
+          <img src="../img/holzleisten_installation_2020/3_teamwork.jpg"
+style="max-height:400px">
+          <div class="text">Gemeinsam bei der Arbeit</div>
         </div>
-        <div class="mySlides fade">
-          <div class="numbertext">5 / 5</div>
-          <img src="../img/segeln_arbeit_an_land_2.jpg" style="width:100%">
-          <div class="text">Sauber machen muss sein</div>
+        <div name="supSlide" class="mySlides fade">
+          <div class="numbertext">5 / 7</div>
+          <img src="../img/holzleisten_installation_2020/4_lange_leisten.jpg"
+style="max-height:400px">
+          <div class="text">Auslegen der Leisten</div>
         </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div name="supSlide" class="mySlides fade">
+          <div class="numbertext">6 / 7</div>
+          <img src="../img/holzleisten_installation_2020/5_bearbeitung_leisten.jpg" style="width:100%">
+          <div class="text">Bearbeitung der neuen Leisten</div>
+        </div>
+        <div name="supSlide" class="mySlides fade">
+          <div class="numbertext">7 / 7</div>
+          <img src="../img/holzleisten_installation_2020/7_feinarbeit.jpg" style="width:100%">
+          <div class="text">Feinarbeiten am Schott</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1, 'supSlide', 'supDot')">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 'supSlide', 'supDot')">&#10095;</a>
       </div>
       <br>
 
       <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-        <span class="dot" onclick="currentSlide(5)"></span>
+        <span name="supDot" class="dot" onclick="currentSlide(1, 'supSlide', 'supDot')"></span>
+        <span name="supDot" class="dot" onclick="currentSlide(2, 'supSlide', 'supDot')"></span>
+        <span name="supDot" class="dot" onclick="currentSlide(3, 'supSlide', 'supDot')"></span>
+        <span name="supDot" class="dot" onclick="currentSlide(4, 'supSlide', 'supDot')"></span>
+        <span name="supDot" class="dot" onclick="currentSlide(5, 'supSlide', 'supDot')"></span>
+        <span name="supDot" class="dot" onclick="currentSlide(6, 'supSlide', 'supDot')"></span>
+        <span name="supDot" class="dot" onclick="currentSlide(7, 'supSlide', 'supDot')"></span>
       </div>
 
     </section>	
 
+    <section>
+      <h1 class="w3-wide w3-center"> Eindrücke Delfin</h1>
+
+      <div class="slideshow-container">
+        <div name="mainSlide" class="mySlides fade">
+          <div class="numbertext">1 / 5</div>
+          <img src="../img/delfin2.jpg" style="width:100%">
+          <div class="text">Delfin von oben</div>
+        </div>
+        <div name="mainSlide" class="mySlides fade">
+          <div class="numbertext">2 / 5</div>
+          <img src="../img/delfin3.jpg" style="width:100%">
+          <div class="text">Sicher im Haafen</div>
+        </div>
+        <div name="mainSlide" class="mySlides fade">
+          <div class="numbertext">3 / 5</div>
+          <img src="../img/segeln_arbeit_busgruppe.jpg" style="width:100%">
+          <div class="text">In gemütlicher Runde</div>
+        </div>
+        <div name="mainSlide" class="mySlides fade">
+          <div class="numbertext">4 / 5</div>
+          <img src="../img/segeln_delfin_action.jpg" style="width:100%">
+          <div class="text">Auf offener See</div>
+        </div>
+        <div name="mainSlide" class="mySlides fade">
+          <div class="numbertext">5 / 5</div>
+          <img src="../img/segeln_arbeit_an_land_2.jpg" style="width:100%">
+          <div class="text">Sauber machen muss sein</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1, 'mainSlide', 'mainDot')">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 'mainSlide', 'mainDot')">&#10095;</a>
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span name="mainDot" class="dot" onclick="currentSlide(1, 'mainSlide', 'mainDot')"></span>
+        <span name="mainDot" class="dot" onclick="currentSlide(2, 'mainSlide', 'mainDot')"></span>
+        <span name="mainDot" class="dot" onclick="currentSlide(3, 'mainSlide', 'mainDot')"></span>
+        <span name="mainDot" class="dot" onclick="currentSlide(4, 'mainSlide', 'mainDot')"></span>
+        <span name="mainDot" class="dot" onclick="currentSlide(5, 'mainSlide', 'mainDot')"></span>
+      </div>
+
+    </section>	
   </body>
   <footer>&copy; 2019 TuS Merkenich 2009 e.V.</footer>
 
