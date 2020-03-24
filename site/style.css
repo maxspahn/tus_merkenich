@@ -61,12 +61,12 @@
 .navBar2 a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #B7A5DF;
+	color: white;
 	}
 .navBar2 a:visited { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #D4CDDC;
+	color: white;
 	}
 .navBar2 a:hover, .navBar2 a:focus, .navBar2 a:active { 
 	text-decoration: underline; 
