@@ -1,3 +1,7 @@
 RewriteEngine On
-RewriteCond %{SERVER_PORT} !=443
-RewriteRule ^(.*)$ https://tuskoelnmerkenich.de/$1 [R=301,L]
+# Canonical HTTPS/non-WWW
+<IfModule mod_rewrite.c>
+  RewriteCond %{HTTPS} off [OR]
+  RewriteCond %{HTTP_HOST} ^www\.tuskoelnmerkenich\.de [NC]
+  RewriteRule (.*) https://tuskoelnmerkenich.de/$1 [L,R=301]
+</IfModule>
