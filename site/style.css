@@ -11,6 +11,7 @@
 /* basic elements */
 
 .navBar {
+  border-radius: 20px;
   font-family: helvetica;
   font-weight: bold; 
   font-size: 120%;
@@ -42,13 +43,14 @@
 	}
 
 .navBar2 {
+  border-radius: 20px;
   overflow: hidden;
   font-family: helvetica;
   font-weight: bold; 
   font-size: 125%;
   color: white;
   background-color: grey;
-  text-align: center;
+  text-align: left;
 }
 
 .navBar2 a{
@@ -69,8 +71,8 @@
 	color: white;
 	}
 .navBar2 a:hover, .navBar2 a:focus, .navBar2 a:active { 
-	text-decoration: underline; 
-	color: #9685BA;
+	background-color: black;
+  border-radius: 20px;
 	}
 	
 .currentLink {
@@ -80,6 +82,7 @@
 
 /* The dropdown container */
 .dropdown {
+  border-radius:20px;
   float: left;
   overflow: hidden;
   background-color: grey;
@@ -87,6 +90,7 @@
 
 /* Dropdown button */
 .dropdown .dropbtn {
+  border-radius:20px;
   font-size: inherit;
   font-weight: bold; 
   border: none;
@@ -109,6 +113,7 @@
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
+  border-radius:20px;
   display: none;
   position: absolute;
   background-color: darkgrey;
@@ -134,10 +139,12 @@
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
   background-color: grey;
+  border-radius: 20px;
 }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
+  border-radius: 20px;
   display: block;
 } 
 
@@ -233,6 +240,14 @@ footer a:link, footer a:visited {
 	width: 148px; 
 	height: 110px;
 	}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 1000px;
+}
 
 #responsize-image {
   width: 80%;
