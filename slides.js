@@ -37,9 +37,9 @@ function plusSlides(n, slideName, dotName){
     showSlides(slideIndex += 1, slideName, dotName); 
   }
   if (n === -1){
-    myTimer = setInterval(function(){plusSlides(n + 2, slideName, dotName)}, 4000);
+    myTimer = setInterval(function(){plusSlides(n + 2, slideName, dotName)}, 7000);
   } else {
-    myTimer = setInterval(function(){plusSlides(n + 1, slideName, dotName)}, 4000);
+    myTimer = setInterval(function(){plusSlides(n + 1, slideName, dotName)}, 7000);
   }
 }
 
@@ -51,19 +51,19 @@ function plusSlidesSup(n, slideName, dotName){
    showSlides(slideIndex += 1, slideName, dotName); 
   }
   if (n === -1){
-    myTimer = setInterval(function(){plusSlides(n + 2, slideName, dotName)}, 4000);
+    myTimer = setInterval(function(){plusSlides(n + 2, slideName, dotName)}, 7000);
   } else {
-    myTimer = setInterval(function(){plusSlides(n + 1, slideName, dotName)}, 4000);
+    myTimer = setInterval(function(){plusSlides(n + 1, slideName, dotName)}, 7000);
   }
 }
 
 window.addEventListener("load",function() {
     showSlides(slideIndex, slideName, dotName);
-    myTimer = setInterval(function(){plusSlides(1, slideName, dotName)}, 4000);
+    myTimer = setInterval(function(){plusSlides(1, slideName, dotName)}, 7000);
 })
 
 function currentSlide(n, slideName, dotName){
   clearInterval(myTimer);
-  myTimer = setInterval(function(){plusSlides(n + 1, slideName, dotName)}, 4000);
+  myTimer = setInterval(function(){plusSlides(n + 1, slideName, dotName)}, 7000);
   showSlides(slideIndex = n, slideName, dotName);
 }
